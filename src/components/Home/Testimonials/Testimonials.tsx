@@ -2,11 +2,11 @@ import * as React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import Image from "next/image";
-import Debi from "../../../../public/imgs/testimonials/Debi.png";
-import justinBefore from "../../../../public/imgs/testimonials/justinBefore.png";
-import levelUp from "../../../../public/imgs/testimonials/levelup.png";
-import sam1 from "../../../../public/imgs/testimonials/sam1.png";
-import sam2 from "../../../../public/imgs/testimonials/sam2.png";
+import Debi from "../../../../public/imgs/Testimonials/Debi.png";
+import justinBefore from "../../../../public/imgs/Testimonials/justinBefore.png";
+import levelUp from "../../../../public/imgs/Testimonials/levelup.png";
+import sam1 from "../../../../public/imgs/Testimonials/sam1.png";
+import sam2 from "../../../../public/imgs/Testimonials/sam2.png";
 
 // Import Swiper styles
 import "swiper/css";
