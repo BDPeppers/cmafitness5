@@ -6,6 +6,8 @@ const Owner = () => {
     <div className="owner-box container ">
       <div className="bio-box column-start">
         <h1 className="header-xLarge">About the owner</h1>
+        <br />
+        <br />
         <p className="para-small">
           CMA Fitness takes a different approach compared to other gyms. Chanda
           Akles is the owner and operator of CMA and like many others, she has
