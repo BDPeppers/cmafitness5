@@ -16,7 +16,7 @@ const Banner = () => {
       <br />
       <br />
       <Link href="/Memberships">
-        <Button size="medium" className="yt-bg  para-small">
+        <Button size="medium" className="yt-bg para-small btn">
           Try now
         </Button>
       </Link>
