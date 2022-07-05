@@ -17,7 +17,7 @@ const Landing = () => {
           </p>
           <br />
           <Link href="https://www.instagram.com/p/Cdjhd2Ggm6k/">
-            <Button size="medium" className="yt-bg para-small">
+            <Button size="medium" className="yt-bg para-small btn">
               Learn more
             </Button>
           </Link>
@@ -31,7 +31,7 @@ const Landing = () => {
           </p>
           <br />
           <Link href="/Memberships">
-            <Button size="medium" className="yt-bg para-small">
+            <Button size="medium" className="yt-bg para-small btn">
               Learn more
             </Button>
           </Link>
