@@ -1,12 +1,28 @@
 div.landing-promos
-    height: 40vh
-
-div.landing-promos
     width: 90%
-    justify-content: space-around
+    flex-direction: column
+    margin-bottom: 8rem
+    height: 40vh
     div.event-highlight, div.guest-pass
-        flex-basis: 45%
-        height: 100%
-        @media screen and (min-width: 1000px)
-            h2, p, button
-                margin: 2rem 0
+        margin: 1rem 0
+        width: 100%
+        button
+            margin: 2rem 0
+        h1
+            padding-bottom: 1rem
+
+@media screen and (min-width: 768px)//tablets
+    div.landing-promos
+        flex-direction: row
+        justify-content: space-around
+    div.event-highlight, div.guest-pass
+        width: 40%
+        padding: 1rem 3rem
+        h1
+            font-size: 2.5rem
+        p
+            font-size: 2rem
+    @media screen and (min-width: 1000px)
+        h2, p
+            margin: .1rem 0
+            

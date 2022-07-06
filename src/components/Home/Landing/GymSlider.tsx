@@ -8,6 +8,7 @@ import gym3 from "../../../../public/imgs/gym/gym3.png";
 import gym4 from "../../../../public/imgs/gym/gym4.png";
 import gym5 from "../../../../public/imgs/gym/gym5.png";
 import gym6 from "../../../../public/imgs/gym/gym6.png";
+import gym7 from "../../../../public/imgs/gym/gym7.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,12 +23,13 @@ slideList.push(gym3);
 slideList.push(gym4);
 slideList.push(gym5);
 slideList.push(gym6);
+slideList.push(gym7);
 
 const GymSlider = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1.25}
+        slidesPerView={2.5}
         spaceBetween={0}
         loop={true}
         scrollbar={{

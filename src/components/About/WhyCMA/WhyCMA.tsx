@@ -3,7 +3,7 @@ const WhyCma = () => {
     <div className="container about-landing-container">
       <div className="why-cma column-start">
         <h1 className="header-xLarge column-start">Why CMA Fitness?</h1>
-        <p className="para-small">
+        <p className="para-med">
           CMA Fitness is a locally and minority-owned gym in Warner Robins, GA.
           We are a NPC certified gym in Warner Robins to provide you with the
           most well-rounded fitness experience Middle GA has to offer. This a

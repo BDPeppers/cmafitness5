@@ -10,7 +10,7 @@ const Memberships = () => {
         </h1>
         <MembershipBox
           title="Free guest pass"
-          details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet volutpat sapien. Quisque eu blandit odio. "
+          details="Free 5 day gym trial!"
         />
         <MembershipBox
           title="Get started - $20 monthly"

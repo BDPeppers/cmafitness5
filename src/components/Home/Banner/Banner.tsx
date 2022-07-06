@@ -11,12 +11,12 @@ const Banner = () => {
         more…a healthier life overall.&quot;
       </p>
       <br />
-      <p className="banner-tagline para-small">-Chanda Akles</p>
+      <p className="banner-tagline para-small">- Chanda Akles</p>
       <br />
       <br />
       <br />
       <Link href="/Memberships">
-        <Button size="medium" className="yt-bg para-small btn">
+        <Button size="medium" className="yt-bg para-med btn">
           Try now
         </Button>
       </Link>
