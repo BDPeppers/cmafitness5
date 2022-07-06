@@ -22,13 +22,15 @@ type Testimonial = {
 const slideList: Array<Testimonial> = [];
 
 const T1 = {
-  quote: `Over 15lbs down in 3 months and best of all - blood pressure no longer high!! 
-Nurse said my blood pressure is better than hers!! Sugar levels were back to normal! 
-So happy because I've been dealing with this my entire adult life!!`,
   pic: Debi,
 };
-
+const T11 = {
+  quote: `Over 15lbs down in 3 months and best of all - blood pressure no longer high!! 
+  Nurse said my blood pressure is better than hers!! Sugar levels were back to normal! 
+  So happy because I've been dealing with this my entire adult life!!`,
+};
 slideList.push(T1);
+slideList.push(T11);
 
 const T2 = {
   pic: justinBefore,
@@ -56,19 +58,19 @@ const T33 = {
 slideList.push(T3);
 slideList.push(T33);
 const T4 = {
-  quote: `I am bikini doll Sam. A NPC bikini athlete that has recently started training for competition after turning forty. 
-  I've been an athlete all my life playing sports, lifting weights, but never entering such an extreme sport like now. In 8 weeks I have lost 18 pounds from, 
-158 to 140 and lost 7% body fat from, 25% to 18%.`,
   pic: sam1,
 };
-
-slideList.push(T4);
-const T5 = {
-  quote: `Look for me show ready this fall and nationally qualified by 2023!!`,
+const T44 = {
   pic: sam2,
 };
-
-slideList.push(T5);
+const T444 = {
+  quote: `I am bikini doll Sam. A NPC bikini athlete that has recently started training for competition after turning forty. 
+  I've been an athlete all my life playing sports, lifting weights, but never entering such an extreme sport like now. In 8 weeks I have lost 18 pounds from, 
+158 to 140 and lost 7% body fat from, 25% to 18%. Look for me show ready this fall and nationally qualified by 2023!!`,
+};
+slideList.push(T4);
+slideList.push(T44);
+slideList.push(T444);
 
 const Testimonials = () => {
   return (
