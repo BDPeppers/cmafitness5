@@ -14,7 +14,7 @@ a,li,div,p,h1,h2,h3,h4,h5,span
     color: $white
     font-weight: 200
     font-family: $tweb 
-
+  
 .header
   font-family: $black-ops !important
 
@@ -43,9 +43,9 @@ a,li,div,p,h1,h2,h3,h4,h5,span
     font-size: 2.5rem
 
 .para-large
-  font-size: 1.7rem
+  font-size: 1.7rem !important
   @media screen and (min-width: 768px)//tablets
-    font-size: 2rem
+    font-size: 2rem !important
 
 .para-med
   font-size: 1.5rem
@@ -53,9 +53,9 @@ a,li,div,p,h1,h2,h3,h4,h5,span
     font-size: 1.7rem
 
 .para-small
-  font-size: 1.3rem
+  font-size: 1.3rem !important
   @media screen and (min-width: 768px)//tablets
-    font-size: 1.5rem
+    font-size: 1.5rem !important
 
 
 //Button Styles
@@ -70,8 +70,6 @@ button.yt-bg:hover, .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover
 button.btn
   padding: 1rem 2rem
 
-.MuiButton-root
-  font-size: unset !important
 
 //Layout Styles
 nav
@@ -163,17 +161,16 @@ div.swiper-slide-wrapper
     flex-wrap: wrap
     width: 80%
     max-width: 100rem
-    height: 50rem
+    height: 55rem
     @media screen and (min-width: 768px)//tablets
         flex-direction: row
     img
-        flex-basis: 30%
         object-fit: fill
-        max-height: 30rem !important
+        max-height: 35rem !important
     p
         font-size: 1.3rem
         padding: 0 2.5rem
-        max-width: 60rem
+        max-width: 50rem
         margin-bottom: 2rem
         @media screen and (min-width: 768px)//tablets
             font-size: 1.7rem
