@@ -25,9 +25,9 @@ const T1 = {
   pic: Debi,
 };
 const T11 = {
-  quote: `Over 15lbs down in 3 months and best of all - blood pressure no longer high!! 
-  Nurse said my blood pressure is better than hers!! Sugar levels were back to normal! 
-  So happy because I've been dealing with this my entire adult life!!`,
+  quote: `Over 15lbs down in 3 months and best of all - blood pressure no longer high! 
+  Nurse said my blood pressure is better than hers! Sugar levels were back to normal! 
+  So happy because I've been dealing with this my entire adult life!`,
 };
 slideList.push(T1);
 slideList.push(T11);
@@ -40,7 +40,7 @@ const T22 = {
   Doctors told me it would be impossible to be where I am today and that I needed to be realistic in my overall goals. 
   Well, thanks to her I just competed in my 4th men's physique competition and it's only up from here. 
   She's constantly teaching me how to improve as an athlete and in doing so has helped me improve in life. 
-  Over 100 pounds of fat lost! No surgery! Just a great coach and some work. Love her to death and can't wait to see what the future holds. - Justin`,
+  Over 100 pounds of fat lost! No surgery! Just a great coach and some work. Love her to death and can't wait to see what the future holds.`,
 };
 slideList.push(T2);
 slideList.push(T22);
