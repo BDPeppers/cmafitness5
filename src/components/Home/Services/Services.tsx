@@ -6,7 +6,11 @@ const Services = () => {
   return (
     <div className="cma-services">
       <div className="service-header">
-        <Image src={cma} alt="CMA Fitness - Warner Robins Gym" />
+        <Image
+          src={cma}
+          alt="CMA Fitness - Warner Robins Gym"
+          priority={true}
+        />
         <div className="cma-services-box column-start">
           <h1 className="header-med">Gym services:</h1>
           <p className="para-med">

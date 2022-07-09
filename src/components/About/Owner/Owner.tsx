@@ -32,6 +32,7 @@ const Owner = () => {
         className="owner"
         src={chanda1}
         alt="Chanda Akles - CMA Fitness - Warner Robins Gym"
+        priority={true}
       />
     </div>
   );

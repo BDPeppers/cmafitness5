@@ -48,7 +48,11 @@ const UpcomingSlider = () => {
           return (
             <SwiperSlide key={x}>
               <div className="swiper-slide-wrapper promo-slide-wrapper">
-                <Image src={slide.promo} alt="CMA Fitness Testimonials" />
+                <Image
+                  src={slide.promo}
+                  alt="CMA Fitness Testimonials"
+                  priority={true}
+                />
                 <div className="promo-box">
                   <p className="promo-details para-small">{slide.details}</p>
                   {slide.btnLink ? (

@@ -94,7 +94,11 @@ const Testimonials = () => {
             <SwiperSlide key={x}>
               <div className="swiper-slide-wrapper">
                 {slide.pic ? (
-                  <Image src={slide.pic} alt="CMA Fitness Testimonials" />
+                  <Image
+                    src={slide.pic}
+                    alt="CMA Fitness Testimonials"
+                    priority={true}
+                  />
                 ) : null}
 
                 <p>{slide.quote}</p>

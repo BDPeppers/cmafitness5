@@ -43,7 +43,11 @@ const GymSlider = () => {
           return (
             <SwiperSlide key={x}>
               <div className="swiper-slide-wrapper">
-                <Image src={slide} alt="CMA Fitness - Warner Robins Gym" />
+                <Image
+                  src={slide}
+                  alt="CMA Fitness - Warner Robins Gym"
+                  priority={true}
+                />
               </div>
             </SwiperSlide>
           );
