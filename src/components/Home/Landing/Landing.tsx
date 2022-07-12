@@ -8,7 +8,7 @@ const Landing = () => {
       <GymSlider />
 
       <div className="landing-promos container">
-        <div className="event-highlight column-start">
+        {/* <div className="event-highlight column-start">
           <h1 className="header para-large">Event highlight:</h1>
           <p className="para-small">
             “Make it Happen Sis” 💼 brings food, fun and inspiration to ladies
@@ -19,7 +19,7 @@ const Landing = () => {
               Learn more
             </Button>
           </Link>
-        </div>
+        </div> */}
         <div className="guest-pass column-start">
           <h1 className="header para-large">Membership guest pass:</h1>
           <p className="para-small">Free 5 day gym trial!</p>
