@@ -4,9 +4,9 @@ export const schedule = {
   Monday: [
     {
       className: "Insanity Bootcamp",
-      time: "6:00am",
+      time: "5:00am",
       instructor: "Juanita",
-      men: false,
+      men: true,
     },
     {
       className: "Booty Blast",
@@ -25,10 +25,10 @@ export const schedule = {
     {
       className: "Zumba Fitness",
       time: "9:15am",
-      instructor: "Shy",
+      instructor: "Yoana",
       men: false,
     },
-    { className: "Spin", time: "5:30pm", instructor: "Brandi", men: true },
+    { className: "Spin", time: "5:30pm", instructor: "Brandi", men: false },
     {
       className: "Kickbox & Step",
       time: "6:00pm",
