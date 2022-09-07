@@ -31,7 +31,7 @@ export const schedule = {
     { className: "Spin", time: "5:30pm", instructor: "Brandi", men: false },
     {
       className: "Kickbox & Step",
-      time: "6:00pm",
+      time: "6:30pm",
       instructor: "Chanda",
       men: false,
     },
@@ -39,9 +39,15 @@ export const schedule = {
   Wednesday: [
     {
       className: "Insanity Bootcamp",
-      time: "6:00pm",
+      time: "5:00am",
       instructor: "Juanita",
       men: true,
+    },
+    {
+      className: "Power Shred",
+      time: "5:30pm",
+      instructor: "Deana /  Jess",
+      men: false,
     },
     {
       className: "Zumba Fitness",
@@ -54,22 +60,22 @@ export const schedule = {
     {
       className: "Zumba Fitness",
       time: "9:15am",
-      instructor: "Shy",
+      instructor: "Chanda",
       men: false,
     },
-    { className: "Spin", time: "5:30pm", instructor: "Brandi", men: true },
+    { className: "Spin", time: "5:30pm", instructor: "Brandi", men: false },
     {
       className: "Yoga Vibez",
-      time: "6:00pm",
+      time: "6:30pm",
       instructor: "Tori",
       men: false,
     },
   ],
   Friday: [
     {
-      className: "Strength Training 101",
-      time: null,
-      instructor: null,
+      className: "Insanity Bootcamp",
+      time: "5:00am",
+      instructor: "Juanita",
       men: true,
     },
   ],
@@ -79,20 +85,20 @@ type Rotating = { instructor: string; instructorDate: string };
 
 const SatSchedule: Rotating[] = [
   {
-    instructor: "Maria",
-    instructorDate: "7/2",
-  },
-  {
-    instructor: "Maria",
-    instructorDate: "7/9",
-  },
-  {
     instructor: "Shy",
-    instructorDate: "7/18",
+    instructorDate: "8/6",
+  },
+  {
+    instructor: "Yoana",
+    instructorDate: "8/13",
+  },
+  {
+    instructor: "Maria",
+    instructorDate: "8/20",
   },
   {
     instructor: "Chanda",
-    instructorDate: "7/23",
+    instructorDate: "8/27",
   },
 ];
 
