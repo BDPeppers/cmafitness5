@@ -5,8 +5,6 @@ import Image from "next/image";
 import Debi from "../../../../public/imgs/Testimonials/Debi.png";
 import justinBefore from "../../../../public/imgs/Testimonials/justinBefore.png";
 import levelUp from "../../../../public/imgs/Testimonials/levelup.png";
-import sam1 from "../../../../public/imgs/Testimonials/sam1.png";
-import sam2 from "../../../../public/imgs/Testimonials/sam2.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -57,20 +55,6 @@ const T33 = {
 };
 slideList.push(T3);
 slideList.push(T33);
-const T4 = {
-  pic: sam1,
-};
-const T44 = {
-  pic: sam2,
-};
-const T444 = {
-  quote: `I am bikini doll Sam. A NPC bikini athlete that has recently started training for competition after turning forty. 
-  I've been an athlete all my life playing sports, lifting weights, but never entering such an extreme sport like now. In 8 weeks I have lost 18 pounds from, 
-158 to 140 and lost 7% body fat from, 25% to 18%. Look for me show ready this fall and nationally qualified by 2023!`,
-};
-slideList.push(T4);
-slideList.push(T44);
-slideList.push(T444);
 
 const Testimonials = () => {
   return (
