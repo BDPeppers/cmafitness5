@@ -9,11 +9,14 @@ const Landing = () => {
 
       <div className="landing-promos container">
         <div className="event-highlight column-start">
-          <h1 className="header para-large">FALL IN LOVE with FITNESS!</h1>
-          <p className="para-small">50% OFF Sign-on Fee Sept-Oct 🍁🍂🎃</p>
-          <Link href="/Memberships">
+          <h1 className="header para-large">FALL BOOtcamp starts now! 👻</h1>
+          <p className="para-small">
+            Don’t worry if you haven’t signed up yet, you still have plenty of
+            time to join in
+          </p>
+          <Link href="https://www.instagram.com/p/CjOrKzpjSMp/">
             <Button size="medium" className="yt-bg para-small btn">
-              Sign Up
+              Learn More
             </Button>
           </Link>
         </div>

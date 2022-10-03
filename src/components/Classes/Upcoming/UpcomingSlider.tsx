@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import Image from "next/image";
-import makeItHappen from "../../../../public/imgs/promos/MakeItHappen.png";
-
+import fallBootcamp from "../../../../public/imgs/promos/FallBootcamp22.PNG";
+import discount from "../../../../public/imgs/promos/OctDiscount22.PNG";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -20,12 +20,20 @@ type EventPromo = {
 };
 
 const E1 = {
-  promo: makeItHappen,
-  details: "Vendor space opens at 11 and speakers start at 1",
-  btnLink: "https://www.instagram.com/p/Cdjhd2Ggm6k/",
+  promo: fallBootcamp,
+  details:
+    "Over 3 weeks of training PLUS customized meal planning that adjusts based on your progress! 👻",
+  btnLink: "https://www.instagram.com/p/CjOrKzpjSMp/",
   btnText: "Learn more",
 };
 slideList.push(E1);
+const E2 = {
+  promo: discount,
+  details: "FALL IN LOVE with FITNESS! 🍁🍂🎃",
+  btnLink: "/Memberships",
+  btnText: "Sign Up",
+};
+slideList.push(E2);
 
 const UpcomingSlider = () => {
   return (

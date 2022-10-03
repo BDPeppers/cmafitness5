@@ -4,7 +4,7 @@ import UpcomingSlider from "../src/components/Classes/Upcoming/UpcomingSlider";
 const Classes = () => {
   return (
     <>
-      {/* <UpcomingSlider /> */}
+      <UpcomingSlider />
       <Calendar />
     </>
   );
