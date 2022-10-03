@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import Image from "next/image";
-import fallBootcamp from "../../../../public/imgs/promos/FallBootcamp22.PNG";
-import discount from "../../../../public/imgs/promos/OctDiscount22.PNG";
+import fallBootcamp from "../../../../public/imgs/promos/FallBootcamp22.png";
+import discount from "../../../../public/imgs/promos/OctDiscount22.png";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
