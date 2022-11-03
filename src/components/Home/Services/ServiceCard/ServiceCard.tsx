@@ -10,7 +10,7 @@ const ServiceCard = ({ title, description, img }: ServiceCardProps) => {
   return (
     <div className="cma-service-card">
       <div className="service-header">
-        <h1 className="header para-med">{title}</h1>
+        <h1 className="header-med">{title}</h1>
       </div>
       <div className="service-img-box">
         <Image src={img} alt={title} />

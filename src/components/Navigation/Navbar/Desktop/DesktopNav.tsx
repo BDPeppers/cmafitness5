@@ -13,7 +13,9 @@ export default function NavigationBar({ navLinks }: DesktopNavProps) {
       <div className="container">
         <div className="nav-header-box">
           <Link href={"/"} passHref>
-            <h1 className="nav-header header-xLarge cma">CMA</h1>
+            <h1 className="nav-header header-xLarge">
+              <span className="cma">CMA</span> Fitness
+            </h1>
           </Link>
         </div>
         <div className="desktop-nav-links">
