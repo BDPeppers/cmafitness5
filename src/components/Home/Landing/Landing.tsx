@@ -9,14 +9,13 @@ const Landing = () => {
 
       <div className="landing-promos container">
         <div className="event-highlight column-start">
-          <h1 className="header para-large">FALL BOOtcamp starts now! 👻</h1>
+          <h1 className="header para-large">FALL SPECIAL! 🍁</h1>
           <p className="para-small">
-            Don’t worry if you haven’t signed up yet, you still have plenty of
-            time to join in
+            Buy 2 months, GET ONE MONTH FREE! (Expires 12/1)
           </p>
-          <Link href="https://www.instagram.com/p/CjOrKzpjSMp/">
+          <Link href="https://secure.peakpayment.com/8821/prospect">
             <Button size="medium" className="yt-bg para-small btn">
-              Learn More
+              Sign up
             </Button>
           </Link>
         </div>
