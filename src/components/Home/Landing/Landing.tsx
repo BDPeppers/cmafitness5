@@ -13,7 +13,7 @@ const Landing = () => {
           <p className="para-small">
             Buy 2 months, GET ONE MONTH FREE! (Expires 12/1)
           </p>
-          <Link href="https://secure.peakpayment.com/8821/prospect">
+          <Link href="https://secure.peakpayment.com/8821/join/?o_club_url=8821">
             <Button size="medium" className="yt-bg para-small btn">
               Sign up
             </Button>
