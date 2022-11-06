@@ -3,11 +3,12 @@ import Link from "next/link";
 
 interface MembershipBtnProps {
   text: string;
+  link: string;
 }
 
-const MembershipBtn = ({ text }: MembershipBtnProps) => {
+const MembershipBtn = ({ text, link }: MembershipBtnProps) => {
   return (
-    <Link href="https://secure.peakpayment.com/8821/prospect">
+    <Link href={`${link}`}>
       <Button size="large" className="yt-bg membership-btn para-large">
         {text}
       </Button>

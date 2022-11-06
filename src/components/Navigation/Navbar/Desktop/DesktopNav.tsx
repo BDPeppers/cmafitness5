@@ -26,7 +26,7 @@ export default function NavigationBar({ navLinks }: DesktopNavProps) {
               </Button>
             </Link>
           ))}
-          <Link href="https://secure.peakpayment.com/8821/join/?o_club_url=8821">
+          <Link href="">
             <Button size="medium" className="yt-bg nav-membership-btn nav-btn">
               Sign up
             </Button>

@@ -30,8 +30,14 @@ const Memberships = () => {
           details="Get the benefits of the V.I.P. membership with the freedom to cancel any time!"
         />
         <div className="membership-btn-box">
-          <MembershipBtn text="Free pass" />
-          <MembershipBtn text="Sign up" />
+          <MembershipBtn
+            text="Free pass"
+            link={"https://secure.peakpayment.com/8821/prospect"}
+          />
+          <MembershipBtn
+            text="Sign up"
+            link={"https://secure.peakpayment.com/8821/join/?o_club_url=8821"}
+          />
         </div>
       </div>
     </section>
