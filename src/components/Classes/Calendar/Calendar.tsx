@@ -96,24 +96,20 @@ type Rotating = { instructor: string; instructorDate: string };
 
 const SatSchedule: Rotating[] = [
   {
-    instructor: "Yoana",
-    instructorDate: "10/1",
-  },
-  {
-    instructor: "Chanda",
-    instructorDate: "10/8",
-  },
-  {
-    instructor: "Shy",
-    instructorDate: "10/15",
+    instructor: "Maria",
+    instructorDate: "11/5",
   },
   {
     instructor: "Maria",
-    instructorDate: "10/22",
+    instructorDate: "11/12",
   },
   {
     instructor: "Yoana",
-    instructorDate: "10/29",
+    instructorDate: "11/19",
+  },
+  {
+    instructor: "TBD",
+    instructorDate: "11/26",
   },
 ];
 
