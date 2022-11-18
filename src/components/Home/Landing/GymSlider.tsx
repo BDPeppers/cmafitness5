@@ -9,6 +9,7 @@ import gym4 from "../../../../public/imgs/gym/gym4.png";
 import gym5 from "../../../../public/imgs/gym/gym5.png";
 import gym6 from "../../../../public/imgs/gym/gym6.png";
 import gym7 from "../../../../public/imgs/gym/gym7.png";
+import gym8 from "../../../../public/imgs/gym/gym8.jpeg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,6 +19,7 @@ import "swiper/css/scrollbar";
 
 const slideList: Array<any> = [];
 slideList.push(gym1);
+slideList.push(gym8);
 slideList.push(gym2);
 slideList.push(gym3);
 slideList.push(gym4);
