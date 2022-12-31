@@ -8,7 +8,7 @@ const Landing = () => {
       <GymSlider />
 
       <div className="landing-promos container">
-        <div className="event-highlight column-start">
+        {/* <div className="event-highlight column-start">
           <h1 className="header para-large">FALL SPECIAL! 🍁</h1>
           <p className="para-small">
             Buy 2 months, GET ONE MONTH FREE! (Expires 12/1)
@@ -18,7 +18,7 @@ const Landing = () => {
               Sign up
             </Button>
           </Link>
-        </div>
+        </div> */}
         <div className="guest-pass column-start">
           <h1 className="header para-large">Membership guest pass:</h1>
           <p className="para-small">Free 5 day gym trial!</p>
