@@ -9,9 +9,15 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Booty Blast",
-      time: "6:00pm",
+      className: "Total Body Grind",
+      time: "9:15am",
       instructor: "Chanda",
+      men: false,
+    },
+    {
+      className: "Spin",
+      time: "5:30pm",
+      instructor: "Brandi",
       men: false,
     },
     {
@@ -32,13 +38,18 @@ export const schedule = {
       className: "Yoga",
       time: "10:15am",
       instructor: "Kiesha",
-      men: false,
+      men: true,
     },
-    { className: "Spin", time: "5:30pm", instructor: "Brandi", men: true },
     {
       className: "Kickbox & Step",
-      time: "6:30pm",
+      time: "6:00pm",
       instructor: "Chanda",
+      men: false,
+    },
+    {
+      className: "Yoga",
+      time: "7:00pm",
+      instructor: "Kiesha",
       men: false,
     },
   ],
@@ -50,9 +61,15 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Power Shred",
+      className: "Total Body Grind",
+      time: "9:15am",
+      instructor: "Chanda",
+      men: false,
+    },
+    {
+      className: "Booty Blast",
       time: "6:00pm",
-      instructor: "Deana",
+      instructor: "Chanda",
       men: false,
     },
     {
@@ -64,12 +81,6 @@ export const schedule = {
   ],
   Thursday: [
     {
-      className: "Zumba Fitness",
-      time: "9:15am",
-      instructor: "Chanda",
-      men: false,
-    },
-    {
       className: "Rip & Ride",
       time: "5:30pm",
       instructor: "Brandi",
@@ -77,9 +88,9 @@ export const schedule = {
     },
     {
       className: "Yoga",
-      time: "6:30pm",
-      instructor: "Tori",
-      men: false,
+      time: "7:00pm",
+      instructor: "Kiesha",
+      men: true,
     },
   ],
   Friday: [
@@ -97,19 +108,19 @@ type Rotating = { instructor: string; instructorDate: string };
 const SatSchedule: Rotating[] = [
   {
     instructor: "Maria",
-    instructorDate: "11/5",
-  },
-  {
-    instructor: "Maria",
-    instructorDate: "11/12",
+    instructorDate: "1/7",
   },
   {
     instructor: "Yoana",
-    instructorDate: "11/19",
+    instructorDate: "1/14",
   },
   {
-    instructor: "TBD",
-    instructorDate: "11/26",
+    instructor: "Chanda",
+    instructorDate: "1/21",
+  },
+  {
+    instructor: "Shy",
+    instructorDate: "1/28",
   },
 ];
 
