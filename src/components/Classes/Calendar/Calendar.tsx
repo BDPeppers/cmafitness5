@@ -9,12 +9,6 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Total Body Grind",
-      time: "9:15am",
-      instructor: "Chanda",
-      men: false,
-    },
-    {
       className: "Spin",
       time: "5:30pm",
       instructor: "Brandi",
@@ -38,18 +32,18 @@ export const schedule = {
       className: "Yoga",
       time: "10:15am",
       instructor: "Kiesha",
-      men: true,
+      men: false,
     },
     {
-      className: "Kickbox & Step",
+      className: "Core + More",
       time: "6:00pm",
       instructor: "Chanda",
       men: false,
     },
     {
-      className: "Yoga",
-      time: "7:00pm",
-      instructor: "Kiesha",
+      className: "Kickbox & Step",
+      time: "6:30pm",
+      instructor: "Chanda",
       men: false,
     },
   ],
@@ -61,12 +55,6 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Total Body Grind",
-      time: "9:15am",
-      instructor: "Chanda",
-      men: false,
-    },
-    {
       className: "Booty Blast",
       time: "6:00pm",
       instructor: "Chanda",
@@ -75,16 +63,28 @@ export const schedule = {
     {
       className: "Zumba Fitness",
       time: "6:30pm",
-      instructor: "Maria G.",
+      instructor: "Maria",
       men: false,
     },
   ],
   Thursday: [
     {
+      className: "Zumba",
+      time: "9:15am",
+      instructor: "Chanda",
+      men: false,
+    },
+    {
       className: "Rip & Ride",
       time: "5:30pm",
       instructor: "Brandi",
       men: true,
+    },
+    {
+      className: "Xtreme Hip-Hop Step",
+      time: "6:00pm",
+      instructor: "LaNique",
+      men: false,
     },
     {
       className: "Yoga",
@@ -108,19 +108,19 @@ type Rotating = { instructor: string; instructorDate: string };
 const SatSchedule: Rotating[] = [
   {
     instructor: "Maria",
-    instructorDate: "1/7",
+    instructorDate: "2/4",
   },
   {
-    instructor: "Yoana",
-    instructorDate: "1/14",
+    instructor: "LaNique",
+    instructorDate: "2/11",
   },
   {
     instructor: "Chanda",
-    instructorDate: "1/21",
+    instructorDate: "2/18",
   },
   {
-    instructor: "Shy",
-    instructorDate: "1/28",
+    instructor: "Yoana",
+    instructorDate: "2/25",
   },
 ];
 
@@ -149,7 +149,7 @@ const ClassBoxList = () => {
         <div className="class-box-container column-start">
           <h1 className="header-small">Saturday</h1>
           <SatClassBox
-            className="Zumba Fitness"
+            className="Zumba Fitness/Xtreme Hip-Hop Step"
             time="9:15am"
             instructors={SatSchedule}
           />
