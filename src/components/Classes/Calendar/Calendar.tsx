@@ -15,6 +15,12 @@ export const schedule = {
       men: false,
     },
     {
+      className: "Xtreme Hip-Hop Step",
+      time: "5:30pm",
+      instructor: "LaNique",
+      men: false,
+    },
+    {
       className: "Funk Fusion",
       time: "6:30pm",
       instructor: "Chanda",
@@ -69,13 +75,13 @@ export const schedule = {
   ],
   Thursday: [
     {
-      className: "Zumba",
+      className: "Zumba Fitness",
       time: "9:15am",
       instructor: "Chanda",
       men: false,
     },
     {
-      className: "Rip & Ride",
+      className: "Spin",
       time: "5:30pm",
       instructor: "Brandi",
       men: true,
@@ -107,20 +113,20 @@ type Rotating = { instructor: string; instructorDate: string };
 
 const SatSchedule: Rotating[] = [
   {
-    instructor: "Maria",
-    instructorDate: "2/4",
+    instructor: "Yoana",
+    instructorDate: "3/4",
   },
   {
     instructor: "LaNique",
-    instructorDate: "2/11",
+    instructorDate: "3/11",
   },
   {
     instructor: "Chanda",
-    instructorDate: "2/18",
+    instructorDate: "3/18",
   },
   {
     instructor: "Yoana",
-    instructorDate: "2/25",
+    instructorDate: "3/25",
   },
 ];
 
@@ -210,12 +216,22 @@ const Calendar = () => {
   return (
     <div className="calendar-box container column-start">
       <div className="calendar-header column-start">
-        <h1 className="header-large">{month} group fitness schedule</h1>
+        <h1 className="header-large">{month} group fitness schedule:</h1>
         <br />
-        <h1 className="para-med monthly-msg">
-          The schedule is filling back up, now with SPIN and YOGA!! Come support
-          our new instructors and keep working with your favs!!
-        </h1>
+        <p className="para-med monthly-msg">
+          Don’t walk, MARCH to CMA and try this month’s classes!!
+        </p>
+        <br />
+        <br />
+        <h1 className="header-med monthly-msg">Special events:</h1>
+        <p className="para-med monthly-msg">
+          DONUTS & DEADLIFTS (3/25 ~ 10AM-12PM) - Our first lift meet in a
+          loooong time, along with a lil brunch! See you soon! 🍩
+        </p>
+        <p className="para-med monthly-msg">
+          FUNKED UP FRIDAY (3/31 ~ 6-8PM) - Back to back dance classes bc we
+          can’t get enough! 🤩
+        </p>
       </div>
 
       <ClassBoxList />

@@ -9,18 +9,13 @@ const Landing = () => {
 
       <div className="landing-promos container">
         <div className="event-highlight column-start">
-          <h1 className="header para-large">
-            LET&apos;S LIGHT UP THE NIGHT💫🍸
-          </h1>
+          <h1 className="header para-large">Deadlifts & Donuts 🍩:</h1>
+          <p className="para-small">Brunch, Lift, & Meet ~ 3/25 ~ 10AM-12PM</p>
           <p className="para-small">
-            Tacos + Tequila +{" "}
-            <Link color="#DC6E31" href={"https://www.instagram.com/dj_rodb_/"}>
-              @dj_rodb 🎧
-            </Link>{" "}
-            = FUEGO FRIDAY 🔥
+            Meet some other local lifters! And if you just wanna watch and hang
+            out with us, that’s cool too!
           </p>
-          <p className="para-small">You don&apos;t wanna miss this!</p>
-          <Link href="https://www.instagram.com/p/Cn2sDMmALfB/">
+          <Link href="https://www.instagram.com/p/CpQ2DewLKwk/">
             <Button size="medium" className="yt-bg para-small btn">
               Learn more
             </Button>
