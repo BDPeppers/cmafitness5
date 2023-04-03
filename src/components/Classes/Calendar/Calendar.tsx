@@ -9,16 +9,10 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Spin",
+      className: "Spin/Xtreme Hip-Hop",
       time: "5:30pm",
-      instructor: "Brandi",
-      men: false,
-    },
-    {
-      className: "Xtreme Hip-Hop Step",
-      time: "5:30pm",
-      instructor: "LaNique",
-      men: false,
+      instructor: "Brandi/Lanique",
+      men: true,
     },
     {
       className: "Funk Fusion",
@@ -31,13 +25,7 @@ export const schedule = {
     {
       className: "Zumba Fitness",
       time: "9:15am",
-      instructor: "Yoana",
-      men: false,
-    },
-    {
-      className: "Yoga",
-      time: "10:15am",
-      instructor: "Kiesha",
+      instructor: "Chanda",
       men: false,
     },
     {
@@ -61,7 +49,7 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Booty Blast",
+      className: "Power Shred",
       time: "6:00pm",
       instructor: "Chanda",
       men: false,
@@ -75,7 +63,7 @@ export const schedule = {
   ],
   Thursday: [
     {
-      className: "Zumba Fitness",
+      className: "Zumba and Shred",
       time: "9:15am",
       instructor: "Chanda",
       men: false,
@@ -113,20 +101,24 @@ type Rotating = { instructor: string; instructorDate: string };
 
 const SatSchedule: Rotating[] = [
   {
-    instructor: "Yoana",
-    instructorDate: "3/4",
+    instructor: "Maria G.",
+    instructorDate: "4/1",
   },
   {
-    instructor: "LaNique",
-    instructorDate: "3/11",
+    instructor: "Miguel",
+    instructorDate: "4/8",
   },
   {
     instructor: "Chanda",
-    instructorDate: "3/18",
+    instructorDate: "4/15",
   },
   {
-    instructor: "Yoana",
-    instructorDate: "3/25",
+    instructor: "Lanique",
+    instructorDate: "4/22",
+  },
+  {
+    instructor: "Chanda",
+    instructorDate: "4/22",
   },
 ];
 
@@ -155,7 +147,7 @@ const ClassBoxList = () => {
         <div className="class-box-container column-start">
           <h1 className="header-small">Saturday</h1>
           <SatClassBox
-            className="Zumba Fitness/Xtreme Hip-Hop Step"
+            className="Zumba Fitness/Xtreme Hip-Hop Step/Funk Fusion"
             time="9:15am"
             instructors={SatSchedule}
           />
@@ -218,20 +210,13 @@ const Calendar = () => {
       <div className="calendar-header column-start">
         <h1 className="header-large">{month} group fitness schedule:</h1>
         <br />
-        <p className="para-med monthly-msg">
+        {/* <p className="para-med monthly-msg">
           Don’t walk, MARCH to CMA and try this month’s classes!!
-        </p>
+        </p> */}
         <br />
         <br />
         <h1 className="header-med monthly-msg">Special events:</h1>
-        <p className="para-med monthly-msg">
-          DONUTS & DEADLIFTS (3/25 ~ 10AM-12PM) - Our first lift meet in a
-          loooong time, along with a lil brunch! See you soon! 🍩
-        </p>
-        <p className="para-med monthly-msg">
-          FUNKED UP FRIDAY (3/31 ~ 6-8PM) - Back to back dance classes bc we
-          can’t get enough! 🤩
-        </p>
+        <p className="para-med monthly-msg">Miguel is back! 🤩</p>
       </div>
 
       <ClassBoxList />
