@@ -9,9 +9,15 @@ export const schedule = {
       men: true,
     },
     {
-      className: "Spin/Xtreme Hip-Hop",
+      className: "Spin",
       time: "5:30pm",
-      instructor: "Brandi/Lanique",
+      instructor: "Brandi",
+      men: true,
+    },
+    {
+      className: "Xtreme Hip-Hop",
+      time: "5:30pm",
+      instructor: "LaNique",
       men: true,
     },
     {
@@ -22,12 +28,6 @@ export const schedule = {
     },
   ],
   Tuesday: [
-    {
-      className: "Zumba Fitness",
-      time: "9:15am",
-      instructor: "Chanda",
-      men: false,
-    },
     {
       className: "Core + More",
       time: "6:00pm",
@@ -58,13 +58,13 @@ export const schedule = {
       className: "Zumba Fitness",
       time: "6:30pm",
       instructor: "Maria",
-      men: false,
+      men: true,
     },
   ],
   Thursday: [
     {
-      className: "Zumba and Shred",
-      time: "9:15am",
+      className: "Zumba & Shred",
+      time: "10:00am",
       instructor: "Chanda",
       men: false,
     },
@@ -102,23 +102,19 @@ type Rotating = { instructor: string; instructorDate: string };
 const SatSchedule: Rotating[] = [
   {
     instructor: "Maria G. - Zumba",
-    instructorDate: "4/1",
+    instructorDate: "5/6",
   },
   {
-    instructor: "Miguel - Zumba **Men may attend",
-    instructorDate: "4/8",
+    instructor: "LaNique - Xtreme Hip-Hop",
+    instructorDate: "5/13",
   },
   {
     instructor: "Chanda - Zumba",
-    instructorDate: "4/15",
+    instructorDate: "5/20",
   },
   {
-    instructor: "LaNique - Xtreme Hip Hop Step",
-    instructorDate: "4/22",
-  },
-  {
-    instructor: "Chanda - Funk Fusion",
-    instructorDate: "4/29",
+    instructor: "Closed",
+    instructorDate: "5/27",
   },
 ];
 
@@ -147,7 +143,7 @@ const ClassBoxList = () => {
         <div className="class-box-container column-start">
           <h1 className="header-small">Saturday</h1>
           <SatClassBox
-            className="Zumba Fitness/Xtreme Hip-Hop Step/Funk Fusion"
+            className="Zumba Fitness/Xtreme Hip-Hop Step"
             time="9:15am"
             instructors={SatSchedule}
           />
@@ -216,7 +212,9 @@ const Calendar = () => {
         <br />
         <br />
         <h1 className="header-med monthly-msg">Special events:</h1>
-        <p className="para-med monthly-msg">Miguel is back! 🤩</p>
+        <p className="para-med monthly-msg">No staff/class 5/27 - 5/29</p>
+        <p className="para-med monthly-msg">No Spin 5/17 - 5/21</p>
+        <p className="para-med monthly-msg">No Xtreme Hip-Hop 5/21 - 6/3</p>
       </div>
 
       <ClassBoxList />
