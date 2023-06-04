@@ -14,12 +14,12 @@ const Memberships = () => {
         />
         <MembershipBox
           title="Get started - $20 monthly"
-          details="This package gives you what you need to your foot in the door! Take advantage of our fitness facility during business hours!. "
+          details="This package gives you what you need to get your foot in the door! Take advantage of our fitness facility during business hours! "
         />
         <MembershipBox
           title="24 hours - $25 monthly"
           details="There's always time for fitness, no matter your schedule!
-         Get access to the facility during business hours as well as unlimited 24hr key fob access "
+         Get access to the facility during business hours as well as unlimited 24hr key fob access."
         />
         <MembershipBox
           title="V.I.P. - $30 monthly (Popular choice!)"

@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Banner from "../src/components/Home/Banner/Banner";
 import Landing from "../src/components/Home/Landing/Landing";
 import Services from "../src/components/Home/Services/Services";
-import Testimonials from "../src/components/Home/Testimonials/Testimonials";
-import styles from "../styles/Home.module.css";
+import InstaFeed from "../src/components/Home/InstaFeed/InstaFeed";
 
 const Home: NextPage = () => {
   return (
@@ -19,11 +16,9 @@ const Home: NextPage = () => {
                   group fitness classes, and even a gym daycare."
         />
       </Head>
-
       <Landing />
       <Services />
-      <Testimonials />
-      <Banner />
+      <InstaFeed />
     </>
   );
 };

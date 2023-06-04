@@ -6,7 +6,7 @@ export interface ILayoutProps {
   children?: JSX.Element | JSX.Element[];
 }
 
-var links: Array<string> = ["Home", "About", "Classes", "Memberships"];
+var links: Array<string> = ["Home", "About", "Memberships"];
 export default function Layout({ children }: ILayoutProps) {
   return (
     <>

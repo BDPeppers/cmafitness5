@@ -12,15 +12,20 @@ const Owner = () => {
           CMA Fitness takes a different approach compared to other gyms. Chanda
           Akles is the owner and operator of CMA and like many others, she has
           seen many approaches to gym memberships, and realized early on, it
-          just doesn&apos;t work for most people. Chanda is a personal trainer
-          and fitness instructor. While she was going to school at Middle
-          Georgia State and finishing up her degree in Public & Human Services,
-          she worked as an aerobics instructor. &quot;The problem with working
-          at these gyms was that I loved my clients, we would develop a
-          relationship. Then later, that gym would hurt the person, and maybe it
-          was through a contract dispute or financial issues, and that would
-          affect our relationship. I wanted to be somewhere I was in control of
-          what the person received. I wanted it to be more intimate.&quot;
+          just doesn&apos;t work for most people.
+          <br />
+          <br />
+          Chanda is a personal trainer and fitness instructor. While she was
+          going to school at Middle Georgia State and finishing up her degree in
+          Public & Human Services, she worked as an aerobics instructor.
+          &quot;The problem with working at these gyms was that I loved my
+          clients, we would develop a relationship. Then later, that gym would
+          hurt the person, and maybe it was through a contract dispute or
+          financial issues, and that would affect our relationship. I wanted to
+          be somewhere I was in control of what the person received. I wanted it
+          to be more intimate.&quot;
+          <br />
+          <br />
           Chanda decided to have her own space and she created CMA Fitness. No
           contracts, a diversified array of classes to take, with multiple
           instructors, and one on one attention. She takes a holistic approach

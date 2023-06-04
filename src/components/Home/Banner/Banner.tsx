@@ -6,12 +6,12 @@ const Banner = () => {
     <div className="home-banner container">
       <h1 className="header-med">Try us for free!</h1>
       <br />
-      <p className="banner-tagline para-small">
+      <p className="banner-tagline para-med">
         &quot;Accept the Challenge, Stay Motivated, Achieve, Set Goals and
         more…a healthier life overall.&quot;
       </p>
       <br />
-      <p className="banner-tagline para-small">- Chanda Akles</p>
+      <p className="banner-tagline para-med">- Chanda Akles</p>
       <br />
       <br />
       <br />
