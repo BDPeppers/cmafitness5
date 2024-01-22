@@ -1,2 +1,2 @@
-5th redesign of https://cmafitness.fit/
+5th redesign of cma
 
